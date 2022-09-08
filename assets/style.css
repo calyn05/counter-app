@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/Counter\ app\ banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+p {
+  background-color: #00000085;
+  width: fit-content;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+button {
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0.7rem 1.5rem;
+  background-color: red;
+  border-radius: 2rem;
+  border: 2px solid red;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 0.2rem;
+}
+
+button:hover {
+  border: 2px solid #ffffff85;
+}
+
+#save-btn {
+  background-color: green;
+}
